@@ -19,3 +19,17 @@ document.addEventListener('DOMContentLoaded', function ()
 
     themeToggle.addEventListener('click', toggleTheme);
 });
+
+
+
+function page_change(page) {
+    document.getElementById("title1").innerHTML = page;
+}
+
+function popup(message) {
+    window.alert(message);
+}
+
+function print(message) {
+    console.log(message);
+}
